@@ -9,7 +9,7 @@
 
                 <div v-masonry-tile v-for="(offer, index) of offers" class="item masonry-item" :key="index">
                     <div class="p-8 bg-gray-50 shadow rounded-xl md:ml-6 mt-6">
-                        <div class="h-56">
+                        <div class="h-56 mb-4">
                             <img :src="offer.image" alt="Image" class="w-full h-full object-contain" />
                         </div>
                         <div class="flex items-center gap-3">
